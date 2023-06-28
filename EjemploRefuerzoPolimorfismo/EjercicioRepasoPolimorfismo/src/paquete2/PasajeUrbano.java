@@ -41,10 +41,12 @@ public abstract class PasajeUrbano {
     public String toString() {
         return String.format("Pasajero: %s\n"
                 + "Apellido: %s\n"
+                + "Edad: %d\n"
                 + "Valor Pasaje: %.2f\n"
                 + "---------------------\n",
                 obtenerPersona().obtenerNombre(),
-                obtenerPersona().obtenerCedula(),
+                obtenerPersona().obtenerApellido(),
+                obtenerPersona().obtenerEdad(),
                 obtenerValorPasaje());
     }
 

@@ -55,10 +55,12 @@ public class Ejecutor2 {
         normal: mayor a 25 y menor 65
         tercera edad: mayor o igual a 65
         
-         */
-        // inicio de solución
-        // fin  de solución
-        // no incrementar líneas de código desde aquí
+         
+        inicio de solución
+        fin  de solución
+        no incrementar líneas de código desde aquí
+        */
+        
         for (int i = 0; i < pasajes.size(); i++) {
             pasajes.get(i).establecerValorPasaje();
         }
